@@ -15,6 +15,7 @@
 		9F751DED159F8A9600BD1E38 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F751DEC159F8A9600BD1E38 /* ICAppDelegate.m */; };
 		9F751DF0159F8A9600BD1E38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F751DEE159F8A9600BD1E38 /* MainStoryboard.storyboard */; };
 		9F751DF3159F8A9600BD1E38 /* ICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F751DF2159F8A9600BD1E38 /* ICViewController.m */; };
+		9F751DFB159F976100BD1E38 /* ICBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F751DFA159F976100BD1E38 /* ICBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		9F751DDC159F8A9600BD1E38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F751DDE159F8A9600BD1E38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F751DE0159F8A9600BD1E38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9F751DE4159F8A9600BD1E38 /* iCalculator-Info.plist */ = {isa = PBXFileReference; path = "iCalculator-Info.plist"; sourceTree = "<group>"; };
+		9F751DE4159F8A9600BD1E38 /* iCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalculator-Info.plist"; sourceTree = "<group>"; };
 		9F751DE6159F8A9600BD1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F751DE8159F8A9600BD1E38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F751DEA159F8A9600BD1E38 /* iCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "iCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		9F751DEB159F8A9600BD1E38 /* ICAppDelegate.h */ = {isa = PBXFileReference; path = ICAppDelegate.h; sourceTree = "<group>"; };
+		9F751DEA159F8A9600BD1E38 /* iCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		9F751DEB159F8A9600BD1E38 /* ICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICAppDelegate.h; sourceTree = "<group>"; };
 		9F751DEC159F8A9600BD1E38 /* ICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAppDelegate.m; sourceTree = "<group>"; };
 		9F751DEF159F8A9600BD1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9F751DF1159F8A9600BD1E38 /* ICViewController.h */ = {isa = PBXFileReference; path = ICViewController.h; sourceTree = "<group>"; };
+		9F751DF1159F8A9600BD1E38 /* ICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewController.h; sourceTree = "<group>"; };
 		9F751DF2159F8A9600BD1E38 /* ICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewController.m; sourceTree = "<group>"; };
+		9F751DF9159F976100BD1E38 /* ICBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBrain.h; sourceTree = "<group>"; };
+		9F751DFA159F976100BD1E38 /* ICBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				9F751DEB159F8A9600BD1E38 /* ICAppDelegate.h */,
 				9F751DEC159F8A9600BD1E38 /* ICAppDelegate.m */,
 				9F751DEE159F8A9600BD1E38 /* MainStoryboard.storyboard */,
+				9F751DF9159F976100BD1E38 /* ICBrain.h */,
+				9F751DFA159F976100BD1E38 /* ICBrain.m */,
 				9F751DF1159F8A9600BD1E38 /* ICViewController.h */,
 				9F751DF2159F8A9600BD1E38 /* ICViewController.m */,
 				9F751DE3159F8A9600BD1E38 /* Supporting Files */,
@@ -165,6 +170,7 @@
 				9F751DE9159F8A9600BD1E38 /* main.m in Sources */,
 				9F751DED159F8A9600BD1E38 /* ICAppDelegate.m in Sources */,
 				9F751DF3159F8A9600BD1E38 /* ICViewController.m in Sources */,
+				9F751DFB159F976100BD1E38 /* ICBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
